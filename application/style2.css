@@ -1,0 +1,29 @@
+.title {
+    font-family: 'Orbitron', cursive;
+    font-size: 26px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background: #11151a;
+    box-shadow: 0 8px 6px rgba(25, 4, 99, 0.1), 0 8px 6px rgba(57, 145, 185, 0.08);
+    transition: transform 0.3s ease-in-out;
+    display: inline-block;
+}
+
+/* Hover effect for the title is optional */
+.title:hover {
+    transform: translateY(-3px);
+}
+
+button {
+    background-color: #0052b1; /* Dark blue background color */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block; /* Align button to center */
+    margin: 20px auto; /* Center the button */
+}
