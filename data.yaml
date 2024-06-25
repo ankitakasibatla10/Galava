@@ -1,0 +1,9 @@
+NoSQLDatabases:
+- name: University_Rankings_and_Courses
+  uri: mongodb+srv://ankita:ankita2003@galava.yx0fnth.mongodb.net/?retryWrites=true&w=majority&appName=galava
+SQLDatabases:
+- name: galava
+  password: HNRYkp!JU%7zW4|R,RIS6xi`.,t!pT0y
+  port: 3306
+  server_name: galava.cpic2wqcks8b.us-east-1.rds.amazonaws.com
+  user_name: admin

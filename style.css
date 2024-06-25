@@ -1,0 +1,132 @@
+.title {
+    font-family: 'Orbitron', cursive;
+    font-size: 26px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background: #11151a;
+    box-shadow: 0 8px 6px rgba(25, 4, 99, 0.1), 0 8px 6px rgba(57, 145, 185, 0.08);
+    transition: transform 0.3s ease-in-out;
+    display: inline-block;
+}
+
+/* Hover effect for the title is optional */
+.title:hover {
+    transform: translateY(-3px);
+}
+
+/* Update the .vault-header class for the form header */
+.vault-header {
+    font-family: 'Aclonica', sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    padding: 10px 20px;
+    /* Additional styling if needed */
+}
+
+
+input[type=text] {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #2c3e50; 
+    border-radius: 4px;
+    color: #ffffff; 
+    box-sizing: border-box;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    transition: border-color 0.3s ease-in-out; 
+    background-color: #0052b1;
+} 
+
+
+input[type=text]:focus {
+    border-color: #0a3028; /* Highlighted border color when focused */
+    outline: none; 
+}
+
+/* Update the .vault-header class for the header text */
+.vault-header {
+    font-family: 'Aclonica', sans-serif;
+    font-size: 30px;
+    color: #ffffff; /* Change to a lighter color for contrast */
+    margin-bottom: 20px; /* Space below the header */
+    padding: 10px 20px;
+} 
+
+
+
+button[type=submit] {
+    background-color: #0e03dc; /* Dark blue background color */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center; /* Block display to fill the form width */
+    box-shadow: 0 8px 6px rgba(25, 4, 99, 0.1),
+                0 8px 6px rgba(57, 145, 185, 0.08); /* Simple shadow for a slight 3D effect */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+    display: block;
+    margin: 20px auto;
+}
+
+button[type=submit]:hover {
+    background-color: #0e03dc; /* Even darker blue on hover */
+}
+
+/* Override the default color for buttons */
+button {
+    background-color: #0052b1; /* Your desired button color */
+    /* Other button styles */
+}
+
+/* Override the default focus color for input fields */ 
+input[type="text"]:focus {
+    border-color: #0052b1; /* Your desired focus border color */
+    /* Other focus styles
+}
+
+/* Override the default color for input fields */ */
+input[type="text"] {
+    background-color: #2b2828; /* Your desired background color */
+    color: #ffffff; /* Your desired text color */
+    /* Other input styles */
+} 
+
+/* Ensure this is in your style.css or the equivalent file you're loading into Streamlit */
+
+/* Input fields styling with increased specificity */
+div.streamlit-expander div.stTextInput input,
+div.streamlit-expander div.stTextArea textarea {
+    background-color: #000000 !important; /* Black background */
+    color: #ffffff !important; /* White text */
+    border: 1px solid #cccccc !important; /* Lighter border */
+}
+
+/* Button styling with increased specificity */
+div.streamlit-expander button {
+    background-color: #0052b1 !important; /* Dark blue background */
+    color: white !important;
+}
+
+/* Focus on input fields */
+div.streamlit-expander div.stTextInput input:focus,
+div.streamlit-expander div.stTextArea textarea:focus {
+    border-color: #0052b1 !important; /* Dark blue border for focus */
+    outline: none !important;
+}
+
+/* Streamlit button hover effect */
+div.streamlit-expander button:hover {
+    background-color: #003974 !important; /* Darker blue on hover */
+}
+
+/* Optional: Custom class for the button if you have it in your HTML */
+.button-custom {
+    background-color: #0052b1 !important; /* Dark blue background */
+    color: white !important;
+    /* Other styles... */
+}
+}
